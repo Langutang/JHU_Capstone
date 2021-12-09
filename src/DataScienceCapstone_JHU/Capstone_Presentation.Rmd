@@ -1,0 +1,30 @@
+---
+title: "Data Capstone Final Project"
+author: "John Valentine Lang"
+date: "December 9th, 2021"
+output: ioslides_presentation
+---
+
+##Problem Statement
+The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others. For this project you must submit:
+
+A Shiny app that takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.
+A slide deck consisting of no more than 5 slides created with R Studio Presenter (https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations) pitching your algorithm and app as if you were presenting to your boss or an investor
+
+##OVERVIEW for Solution
+The goal of this capstone project is to develope a Shiny app in R that can predict the next word using previous ones, like that used in cellphone devices keyboard applications implemented by the SWIFTKEY.
+
+Previous tasks that were done in order to get to this point were: Understanding the problem, Getting and Cleaning the Data, Exploratory Data Analysis, Modeling, Prediction Model and Executing all the data and information into one shiny app that is able to do the objective of this project.
+
+##THE SHINY APPLICATION
+The Shiny application allow the prediction of the next 3 possible word for a sentence!
+
+The user entered the text in an input box, other box will show the written statement!
+
+The predicted word is obtained from the n-grams matrices, comparing it with tokenize frequency of 2, 3 and 4 grams sequences and will show 3 predicted words!
+
+While entering the text, the field with the predicted next word refreshes instantaneously, and then the predicted word is then provided for the user's choice.
+
+## Links for Code and Shiny
+github path for Code - https://github.com/Langutang/JHU_Capstone
+Shiny path - 
